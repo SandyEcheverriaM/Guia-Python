@@ -1,0 +1,10 @@
+ Una panadería vende barras de pan a $ 3.49 pesos cada una. El pan que no es el  día tiene un descuento del 60%. Escribir un programa que comience leyendo el número  de barras vendidas que no son del día. Después el programa debe mostrar el precio  habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste  final total.  
+
+
+
+engranes = int(input("Ingrese el número de engranes vendidos: "))
+cilindros = int(input("Ingrese el número de cilindros vendidos: "))
+peso_engranes = engranes * 112
+peso_cilindros = cilindros * 75
+peso_total = peso_engranes + peso_cilindros
+print("El peso total del paquete es:", peso_total, "g")
